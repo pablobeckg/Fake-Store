@@ -9,13 +9,15 @@ interface ProductItemProps {
 
 const ProductItem: React.FC<ProductItemProps> = (props) => {
   return (
-    <div className="item">
-      <Link to={`/products/${props.item.id}`}>
+    <Link to={`/products/${props.item.id}`}>
+      <div className="item">
         <img src={props.item.image} alt="" />
+      </div>
+      <div className="item-information">
         <h2>{props.item.title}</h2>
-        <h2>{props.item.price.toFixed(2)}€</h2>
-      </Link>
-    </div>
+        <h2>€{props.item.price.toFixed(2)}</h2>
+      </div>
+    </Link>
   );
 };
 

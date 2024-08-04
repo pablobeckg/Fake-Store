@@ -1,14 +1,31 @@
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
+  --main-font: "karla";
+  --main-color: #323A45;
+  --main-color2: #848484;
+  font-family: var(--main-font), system-ui, Avenir, Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--main-color);
+ 
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  color: var(--main-color2);
 }

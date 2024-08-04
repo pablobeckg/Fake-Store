@@ -14,10 +14,12 @@ const ProductList = () => {
 
     return (
         <section className="product-list">
-            {productListData?.map((item, index) => (
-                <ProductItem item={item} key={index}/>
-            ))}
-        </section>
+        {productListData?.map((item, index) => (
+            <div className={`item-${index} product`} key={index}>
+                <ProductItem item={item}/>
+            </div>
+        ))}
+    </section>
     );
 }
  
