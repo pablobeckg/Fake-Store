@@ -25,5 +25,16 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 14px;
+        margin-right: 1rem;
+    }
+    nav {
+        font-size: 10px;
+        gap: 0.5rem;
+    }
 }
