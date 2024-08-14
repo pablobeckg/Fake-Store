@@ -1,5 +1,7 @@
 # Fake Store
 
+<img width="1047" alt="Fake Store" src="https://github.com/user-attachments/assets/9b680422-1a5e-4ff9-b805-13766d6e147a">
+
 Welcome to **Fake Store**, an online store demo showcasing a variety of products. This web application is designed as a mock e-commerce platform, allowing users to browse and interact with product listings in a simple and intuitive interface.
 
 ## Table of Contents
